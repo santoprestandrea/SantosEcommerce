@@ -45,7 +45,7 @@ __ Informazioni Base:
 7. **Rotta dell'Admin**
 
    * Accedendo con:
-   email: admin@admi.com
+   email: admin@admin.com
    psw:   admin
    si entra nella rotta privata dell'amministrazione, in cui si hanno permessi speciali.
    * Filtrando nella categoria desiderata, possiamo aggiungere un nuovo prodotto attraverso il form, modificare un prodotto od eliminarlo.
