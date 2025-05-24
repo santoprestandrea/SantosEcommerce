@@ -1,0 +1,67 @@
+.contenitore-carosello {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenitore-carosello h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.carosello-product {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-bottom: 3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.prodotti-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 90vh;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenitore-carosello .card-prodotto {
+    max-width: 500px;
+    background: transparent;
+    border: none;
+    padding: 2.5rem;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+
+}
+
+.contenitore-carosello .card-prodotto h2{
+    font-size: 1.5rem;
+}
+
+.contenitore-carosello .card-prodotto p{
+    font-size: 1.1rem;
+}
+
+.contenitore-carosello .card-prodotto .prezzo{
+    font-size: 1.3rem;
+}
+
+.contenitore-carosello .card-prodotto .contenitore-pulsante{
+    align-items: center;
+}

@@ -1,0 +1,213 @@
+.admin-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+}
+
+.admin-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #0656C1;
+}
+
+.admin-dashboard label,
+.admin-dashboard select {
+    display: block;
+    margin: 0 auto 15px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 2rem;
+}
+
+.admin-dashboard select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #444;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.message {
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.message.success {
+    background-color: #e6ffed;
+    color: #256029;
+}
+
+.message.error {
+    background-color: #ffe6e6;
+    color: #902525;
+}
+
+.add-product {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+}
+
+.add-product h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.add-product div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.add-product label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.add-product input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.add-product button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.add-product button:hover {
+    background-color: #0056b3;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    table-layout: fixed;
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    word-wrap: break-word;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.admin-dashboard td input {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+.admin-dashboard th {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    color: white;
+}
+
+.admin-dashboard td>button {
+    padding: 8px 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-dashboard td>button:hover {
+    opacity: 0.9;
+}
+
+.admin-dashboard td>button:nth-child(1) {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.admin-dashboard td>button:nth-child(2) {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .add-product,
+    .admin-dashboard select,
+    .add-product input,
+    .add-product button {
+        width: 100%;
+        max-width: none;
+    }
+    .add-product div {
+        flex-direction: column;
+    }
+    .admin-dashboard table,
+    .admin-dashboard thead,
+    .admin-dashboard tbody,
+    .admin-dashboard th,
+    .admin-dashboard td,
+    .admin-dashboard tr {
+        display: block;
+    }
+    .admin-dashboard th {
+        text-align: right;
+        padding-right: 50%;
+    }
+    .admin-dashboard td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .admin-dashboard td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: calc(50% - 20px);
+        white-space: nowrap;
+        font-weight: 600;
+        color: #555;
+    }
+}

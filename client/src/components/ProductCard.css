@@ -1,0 +1,47 @@
+.card-prodotto {
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px, solid, white;
+    max-width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card-prodotto:hover {
+    transform: translateY(-5px);
+}
+
+.card-prodotto img {
+    width: 100%;
+    object-fit: cover;
+    height: 320px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.prodotto-nome {
+    color: white;
+}
+
+.card-prodotto h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: 0656C1;
+}
+
+.card-prodotto p {
+    font-size: 0.95rem;
+    color: #ccc;
+    text-align: left;
+}
+
+.prezzo {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0656C1;
+    margin-bottom: 1rem;
+}
+

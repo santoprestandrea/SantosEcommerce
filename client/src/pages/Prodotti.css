@@ -1,0 +1,35 @@
+.prodotti-page {
+    padding-top: 130px;
+    text-align: center;
+    background: none;
+}
+
+.prodotti-page h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.sezione-categoria {
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.sezione-categoria h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: #0656C1;
+    text-transform: capitalize;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.lista-prodotti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.visualizza-tutti-btn{
+    margin-top: 1.5rem;
+}

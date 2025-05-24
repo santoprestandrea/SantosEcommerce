@@ -1,0 +1,61 @@
+.chi-siamo-page {
+    padding: 2rem;
+    padding-top: 100px;
+    color: #ddd;
+    background: linear-gradient(to bottom, #1c1c1e, #2c2c2e);
+}
+
+.chi-siamo-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.text-container p {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.text-container {
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.valori-section {
+    text-align: center;
+}
+
+.valori-section h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.valori-section ul {
+    list-style: circle;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.valori-section li {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    color: #cccccc;
+}

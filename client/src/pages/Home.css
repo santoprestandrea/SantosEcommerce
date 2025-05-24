@@ -1,0 +1,96 @@
+.home-page {
+    padding: 2rem;
+    padding-top: 120px;
+    /* spazio per la navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+    width: 80%;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.story-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.story-text {
+    flex: 1;
+    text-align: left;
+}
+
+.story-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.story-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.products-section {
+    text-align: center;
+    width: 70%;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.products-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.products-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+
+
+.view-products-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #5c5c5c, #404040);
+    /* hover leggermente più chiaro */
+}
+
+@media (max-width: 480px) {
+    .story-image img {
+        max-width: 300px;
+    }
+}
+
+
+/* carousel */
+
+.carousel-container {
+    width: 100%;
+    padding: 1rem;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.carousel .slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+

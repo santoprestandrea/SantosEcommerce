@@ -1,0 +1,89 @@
+.checkout-page {
+    padding: 2rem;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.checkout-page h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0656c1;
+
+}
+
+.riepilogo {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.riepilogo li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #dddd;
+    padding:1rem 0;
+}
+
+.riepilogo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.riepilogo h3 {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin: 0;
+}
+
+.riepilogo p {
+    font-size: 1rem;
+    color: #ddd;
+    text-align: left;
+    margin: 0.25rem 0 0 0;
+
+}
+
+.totale {
+    font-size: 1.3rem;
+    color: #0656c1;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
+    
+}
+
+.checkout-form input{
+    padding: 0.75rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #ccc;
+}
+
+.checkout-form button{
+    margin: 0.5rem;
+}
+
+.checkout-page p{
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

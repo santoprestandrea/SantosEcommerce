@@ -1,0 +1,54 @@
+.contatti-page{
+    padding: 2rem;
+    padding-top: 120px;
+    color: #dddd;
+    text-align: center;
+    background: linear-gradient(to bottom) #1c1c1e, #2c2c2e;
+}
+
+.contatti-page h1{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+
+}
+
+.info-section p{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #cccccc;
+
+}
+
+.form-section{
+    margin-top: 3rem;
+    max-width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.form-section h1{
+    color:#ffffff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-section input,
+.form-section textarea{
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border-radius:8px;
+    background-color: #2e2e30;
+    color:#fff;
+    border:none;
+    font-size: 1rem;
+
+}
+
+.form input::placeholder, 
+.form textarea::placeholder{
+    color:#aaa;
+}

@@ -1,0 +1,79 @@
+/* style del footer */
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+    /* margine superiore */
+    width: 100vw/* lunghezza a tutto schermo */
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    /* creazione del contenuto giustificato */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* associazione delle proprietà in comune tra i tre contenitori */
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    /* ogni contenitore deve essere incolonnato*/
+    align-items: center;
+}
+
+.footer-left {
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 20px;
+    justify-content: baseline;
+    text-align: right;
+}
+
+.footer-logo {
+    height: 60px;
+    object-fit: contain;
+}
+
+.footer-right {
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 80px;
+    margin-right: 20px;
+}
+
+.piva,
+.privacy-policy {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.2rem;
+    transition: color 0.3 ease;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0656C1;
+}
+
+.privacy-policy {
+    text-decoration: none;
+}
+
+.privacy-policy:hover {
+    color: #0656C1;
+}
